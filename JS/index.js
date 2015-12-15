@@ -67,7 +67,7 @@ $(document).ready(function() {
 		}
 
 		else {
-		alert('Invalid Email Address');
+			alert('Invalid Email Address');
 
 		}
 
