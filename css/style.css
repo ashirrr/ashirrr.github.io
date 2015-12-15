@@ -235,10 +235,13 @@ nav li a:hover {
 	margin:auto;
 	background-color:white;
 	padding-bottom:40px;
-	padding-top:3 0px;
+	padding-top:45px;
 	margin-bottom:20px;
 	margin-top:25px;
 	border: 1px solid black;
+	-webkit-box-shadow: 11px 3px 92px -9px rgba(0,0,0,0.73);
+	-moz-box-shadow: 11px 3px 92px -9px rgba(0,0,0,0.73);
+	box-shadow: 11px 3px 92px -9px rgba(0,0,0,0.73);
 }
 
 #form li{
