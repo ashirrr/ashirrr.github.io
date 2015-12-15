@@ -277,16 +277,15 @@ input[name="submit"]{
 
 select{
   margin:20px;
-  width:100px;
-  height:45px;
-
+  width:125px;
+  height:25px;
   background-color: gray;
   border:1px solid black;
   border-radius:2px;
   color:black;
   border: 1px solid red;
   padding: 6px 6px;
-  margin: 60px;
+  margin:auto;
 }
 
 
