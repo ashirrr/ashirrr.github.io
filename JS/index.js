@@ -18,21 +18,6 @@ $(document).ready(function() {
 	});
 });
 
-/*
-// NOT WORKING: On click of the "Get in Touch" button the contact form opens in a dialog box
-	var body_message = $('#email').value;
-	var email = 'ashirbadami@gmail.com';
-	var subject = 'Your Services';
-	$('.button').click(function() {
-
-    var mailto_link = 'mailto:' + email + '?subject=' + subject + '&body=' + body_message;
-
-    win = window.open(mailto_link, 'emailWindow');
-    if (win && win.open && !win.closed) win.close();
-
-});
-*/
-
 // Function for the accordion
 		$('.accordion-section .accordion-section-title').click(function(){
 		$(this).siblings().slideToggle('active');
@@ -44,7 +29,6 @@ $(document).ready(function() {
   		
   		$('#submit').on('click',function(){
     		$(this).val('Please wait ...')
-      		.attr('disabled','disabled');
     		$('#submit').submit();
   });
   
