@@ -30,6 +30,7 @@ $(document).ready(function() {
   		$('#submit').on('click',function(){
     		$(this).val('Please wait ...')
     		$('#submit').submit();
+    		alert('Info submitted!')
   });
   
 });
