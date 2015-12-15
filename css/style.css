@@ -235,8 +235,9 @@ nav li a:hover {
 	margin:auto;
 	background-color:white;
 	padding-bottom:40px;
-	padding-top:40px;
+	padding-top:3 0px;
 	margin-bottom:20px;
+	margin-top:25px;
 	border: 1px solid black;
 }
 
@@ -258,11 +259,10 @@ nav li a:hover {
 input{
   font-size: 15px;
   width:50%;
-  border: 1px solid red;
+  border:1px solid red;
   padding: 6px 6px;
   margin: 5px;
-  background: gray;
-  color:white;
+  color:black;
   
 }
 
@@ -279,13 +279,12 @@ select{
   margin:20px;
   width:125px;
   height:25px;
-  background-color: gray;
   border:1px solid black;
   border-radius:2px;
   color:black;
   border: 1px solid red;
   padding: 6px 6px;
-  margin:auto;
+  margin-left:160px;
 }
 
 
