@@ -269,6 +269,10 @@ input, select{
 
 input[name="submit"]{
   margin:20px;
+  width:10%;
+  background-color: yellow;
+  border:1px solid black;
+  border-radius:5px;
 }
 
 
