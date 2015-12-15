@@ -234,8 +234,8 @@ nav li a:hover {
 	width:40%;
 	margin:auto;
 	background-color:white;
-	padding-bottom:20px;
-	padding-bottom:20px;
+	padding-bottom:40px;
+	padding-top:40px;
 	margin-bottom:20px;
 	border: 1px solid black;
 }
@@ -284,7 +284,7 @@ select{
   color:black;
   border: 1px solid red;
   padding: 6px 6px;
-  margin: 5px;
+  margin: auto;
 }
 
 
