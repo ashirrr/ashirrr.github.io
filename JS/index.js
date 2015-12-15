@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-//When the page loads autoplay the video loop
-
 //Hide the footer when the page loads
 	$('#foot').hide();
 
@@ -13,9 +11,6 @@ $(document).ready(function() {
 
 }
 
-//On click of the scroll button for the second time, hide the homepage footer
-
-
 //On click of the responsive menu show nav items in vertical stack
 	$('nav li:first-child').addClass('downNav');
 		$('nav li:first-child').click(function(){
@@ -25,9 +20,15 @@ $(document).ready(function() {
 
 
 // NOT WORKING: On click of the "Get in Touch" button the contact form opens in a dialog box
-	$('.button').click(function(){
-		$('#form').css("display", "block");
-		alert('test');
+	var body_message = $('#email').value;
+	var email = 'ashirbadami@gmail.com';
+	var subject = 'Your Services';
+	$('.button').click(function() {
+
+    var mailto_link = 'mailto:' + email + '?subject=' + subject + '&body=' + body_message;
+
+    win = window.open(mailto_link, 'emailWindow');
+    if (win && win.open && !win.closed) win.close();
 
 });
 
@@ -36,8 +37,6 @@ $(document).ready(function() {
 		$(this).siblings().slideToggle('active');
 	
 });
-
-
 
 
 // Contact form popup send-button click event.
