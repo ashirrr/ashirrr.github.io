@@ -26,7 +26,7 @@ body{
 	/* Font */
 	font-family: 'Open Sans', sans-serif;
   	font-weight:400;
-  	font-size:12px;
+  	font-size:14px;
 }
 
 h1{
@@ -235,12 +235,14 @@ nav li a:hover {
 	margin:auto;
 	background-color:white;
 	padding-bottom:20px;
+	padding-bottom:20px;
 	margin-bottom:20px;
 	border: 1px solid black;
 }
 
 #form li{
   margin-top:10px;
+  margin-right:10px;
   list-style:none;
   padding: 6px 6px;
   
@@ -263,6 +265,10 @@ input, select{
   background: green;
   color:white;
   
+}
+
+input[name="submit"]{
+  margin:20px;
 }
 
 
