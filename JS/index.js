@@ -24,16 +24,6 @@ $(document).ready(function() {
 	
 });
 
-//
-	$(function(){
-  		
-  		$('#submit').on('click',function(){
-    		$(this).val('Please wait ...')
-      		.attr('disabled','disabled');
-    		$('#submit').submit();
-  });
-  
-});
 
 //Form validation to ensure all fields are filled in
 		$('#submit').click(function() {
