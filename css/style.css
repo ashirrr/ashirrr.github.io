@@ -255,14 +255,13 @@ nav li a:hover {
   font-weight: 400;
 }
 
-input, select{
+input{
   font-size: 15px;
-  font-family: Avenir;
-  width:80%;
+  width:50%;
   border: 1px solid red;
   padding: 6px 6px;
   margin: 5px;
-  background: green;
+  background: gray;
   color:white;
   
 }
@@ -274,6 +273,18 @@ input[name="submit"]{
   border:1px solid black;
   border-radius:5px;
   color:black;
+}
+
+select{
+  margin:20px;
+  width:100px;
+  background-color: gray;
+  border:1px solid black;
+  border-radius:5px;
+  color:black;
+  border: 1px solid red;
+  padding: 6px 6px;
+  margin: 5px;
 }
 
 
