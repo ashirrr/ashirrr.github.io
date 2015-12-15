@@ -18,7 +18,7 @@ $(document).ready(function() {
 	});
 });
 
-
+/*
 // NOT WORKING: On click of the "Get in Touch" button the contact form opens in a dialog box
 	var body_message = $('#email').value;
 	var email = 'ashirbadami@gmail.com';
@@ -31,6 +31,7 @@ $(document).ready(function() {
     if (win && win.open && !win.closed) win.close();
 
 });
+*/
 
 // Function for the accordion
 		$('.accordion-section .accordion-section-title').click(function(){
